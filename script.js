@@ -29,8 +29,8 @@ $(document).ready(function() {
 
 
 });
-$('#cool9 li').on('click', function() {
-  alert($('#cool9 li').text());
+$('#result li').on('click', function() {
+  alert($(this).text());
 
 
 
