@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 });
 $('#cool9 li').on('click', function() {
-  alert($('#result').text());
+  alert($('#cool9 li').text());
 
 
 
