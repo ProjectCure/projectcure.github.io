@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 });
-$('#cool9 li').on('click', function(e) {
+$('#cool9 li').on('click', function() {
   alert($('#result').text());
 
 
