@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 
 
-                  $('#result').append('<li class="list-group-item link-class"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
+                  $('#result').append('<li class="list-group-item link-class"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg active" role="button" aria-pressed="false">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
                 }
 
 
