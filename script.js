@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 });
-$('result').on('click', function() {
+$('#result').on('click', function() {
   alert($(this).html());
 
 
