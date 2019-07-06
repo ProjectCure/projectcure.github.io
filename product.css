@@ -1,0 +1,160 @@
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #DC143C;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: black;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+
+
+.fa-book {
+  color: black;
+}
+
+.fa-book:hover {
+    color: #DC143C;
+}
+
+
+
+
+
+.home-main{
+			background: #DC143C;
+			color:#fff;
+			padding: 13%;
+			text-align: center;
+		}
+		.blinker{
+			animation: blinker 1.5s linear infinite;
+		}
+
+    .container-fluid{
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+    }
+		@keyframes blinker {
+		  50% {
+			opacity: 0;
+		  }
+		}
+		.home-main button{
+			background: #fff;
+			color: #5812c5;
+			border-radius: 0;
+			font-weight: 700;
+			width: 16%;
+			height: 50px;
+			top: 4%;
+			margin-top: 3%;
+		}
+		.home-main button:hover{
+			transition: 1s ease;
+			color:#5812c5;
+			width: 19%;
+		}
+		.content1-left{
+			padding:9%;
+		}
+		.content1-right{
+			padding: 12% 1% 1% 0%;
+			text-align: center;
+			/* background:#e4e4e4; */
+		}
+		.home-content2{
+			background: #DC143C;
+			padding: 1.4%;
+			text-align: center;
+		}
+		.home-content2 p{
+			font-size: 18px;
+			line-height: 50px;
+		}
+		.home-content2 p span{
+			font-weight: 500;
+		}
+
+.img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 80%;
+}
+
+
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #DC143C ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #DC143C;
+    border-bottom:5px solid #DC143C;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #DC143C;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+
+
+
+
+
+
+
+
+
+/* navbar */

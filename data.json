@@ -1,0 +1,57 @@
+[
+
+  {
+    "manufacture":"marquette",
+    "Product Code": "3110",
+    "Model":"EAGLE 4000",
+    "manuelurl":"https://engineerDavid.github.io/Devices/marquette.html",
+
+    "Cuff":"Double"
+
+  },
+
+  {
+    "manufacture":"Datascope",
+    "Product Code": "3110",
+    "Model":"Passport",
+    "manuelurl":"https://engineerDavid.github.io/Devices/Datascope.html",
+    "Cuff":"Single"
+  },
+
+  {
+    "manufacture":"Datascope",
+    "Product Code": "3110",
+    "Model":"Passport2",
+    "manuelurl":"https://engineerDavid.github.io/Devices/DatascopePassport2.html",
+    "Cuff":"Single"
+  },
+
+  {
+    "manufacture":"Datascope",
+    "Product Code": "3110",
+    "Model":"PassportXG",
+    "manuelurl":"https://engineerDavid.github.io/Devices/DatascopePassportXG.html",
+    "Cuff":"Single"
+  },
+
+  {
+    "manufacture":"Critikon",
+    "Product Code": "3106",
+    "Model":"Dinamap Vital Signs Monitor 1846 SX",
+    "manuelurl":"https://engineerDavid.github.io/Devices/Critikon.html",
+    "Cuff":"Double"
+  },
+
+  {
+    "manufacture":"WelchAllyn",
+    "Product Code": "3106",
+    "Model":"PROPAQcs",
+    "manuelurl":"https://engineerDavid.github.io/Devices/WelchAllyn.html",
+    "Cuff":"Double"
+  }
+
+
+
+
+
+]

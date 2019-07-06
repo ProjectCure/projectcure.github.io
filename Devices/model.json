@@ -1,0 +1,74 @@
+{
+  "marquette" : [
+    {
+      "manufacture":"marquette",
+      "ProductCode": "3110",
+      "Model":"EAGLE 4000",
+      "manuelUrl":"http://www.frankshospitalworkshop.com/equipment/documents/ecg/service_manuals/Marquette_Eagle4000_-_Service_manual.pdf",
+      "Cuff":"Double",
+      "IMGUrl":"https://files1.kyozou.com/Pictures/_25/24981/24980289.jpg"
+      }
+
+  ],
+
+  "Datascope1" : [
+    {
+      "manufacture":"Datascope",
+      "ProductCode": "3110",
+      "Model":"Passport",
+      "manuelUrl":"https://www.mindraynorthamerica.com/cmsAdmin/uploads/passport-5l-lt-xg-service-manual.pdf",
+      "IMGUrl":"https://www.picclickimg.com/d/l400/pict/173869001890_/Datascope-Passport-D-Medical-Patient-Monitor-Model-EL.jpg",
+      "Cuff":"Single"
+      }
+
+  ],
+
+  "DatascopePassport2" : [
+    {
+      "manufacture":"Datascope",
+      "ProductCode": "3110",
+      "Model":"Passport2",
+      "manuelUrl":"https://www.mindraynorthamerica.com/cmsAdmin/uploads/passport-2-service-manual_001.pdf",
+      "IMGUrl":"https://cdn3.volusion.com/hfxrs.pcoru/v/vspfiles/photos/DSPP2SP-2.png?1547545611",
+      "Cuff":"Single"
+      }
+
+  ],
+
+  "DatascopePassportXG" : [
+    {
+      "manufacture":"Datascope",
+      "ProductCode": "3110",
+      "Model":"PassportXG",
+      "manuelUrl":"https://www.medwrench.com/documents/view/3991/datascope-passport-xg-passort-5-lead-5l-lt-service-manual",
+      "IMGUrl":"https://www.integrisequipment.com/v/vspfiles/photos/DSPPXG-2T.jpg",
+      "Cuff":"Single"
+      }
+
+  ],
+
+
+  "Critikon" : [
+    {
+      "manufacture":"Critikon",
+      "ProductCode": "3106",
+      "Model":"Dinamap Vital Signs Monitor 1846 SX",
+      "manuelUrl":"https://docslide.net/documents/dinamap-1846sx-1846sx-p-service-manual.html",
+      "IMGUrl":"https://d3inagkmqs1m6q.cloudfront.net/1926/media-photos/sd14650-critikon-dinamap-1846sx-1846-sx-vital-signs-monitor-2.jpg",
+      "Cuff":"Double"
+      }
+
+  ],
+
+  "WelchAllyn" : [
+    {
+      "manufacture":"Critikon",
+      "ProductCode": "3106",
+      "Model":"PROPAQcs",
+      "manuelUrl":"https://www.welchallyn.com/content/dam/welchallyn/documents/upload-docs/Service/Service-Manual/Propaq-CS-Monitor_Service-Manual.pdf",
+      "IMGUrl":"https://d3inagkmqs1m6q.cloudfront.net/1926/media-photos/sd14650-critikon-dinamap-1846sx-1846-sx-vital-signs-monitor-2.jpg",
+      "Cuff":"Double"
+      }
+
+  ]
+}
