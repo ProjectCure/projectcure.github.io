@@ -37,7 +37,8 @@ $(document).ready(function() {
 //
 // });
 // $('#result li:selected').text();
-alert($('#result li:selected').text());
+var bob = $('#result').manufacture;
+alert(bob);
 
 
 
