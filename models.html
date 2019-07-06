@@ -58,7 +58,7 @@ $(function() {
 
 
 
-    $.getJSON(url, function(data) {
+    $.getJSON(url, marquette, function(data) {
 
       //  this sectino is to get the title info into a variable
       // var bob = data.Datascope1.map
@@ -83,7 +83,7 @@ $(function() {
 
 
 
-       $.each(data.marquette, function(item){
+      data.map(function(item){
 
         //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
         // return JSON.stringify(item.manufacture + " " + item.Model + " ");
