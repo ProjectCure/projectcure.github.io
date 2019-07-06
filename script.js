@@ -29,8 +29,9 @@ $(document).ready(function() {
 
 
 });
-$('#result').manufacture.on('click', function() {
-  alert($(this).text());
+$('li').on('click', function(e) {
+  var idClicked = e.target..manufacture;
+  alert(idClicked);
 
 
 
