@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 });
-$('li').on('click', function(e) {
+$('#result').on('click', function(e) {
   var idClicked = e.target.manufacture;
   alert(idClicked);
 
