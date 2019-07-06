@@ -36,11 +36,11 @@ $(document).ready(function() {
 //
 //
 // });
-$('#result li:selected').text();
+// $('#result li:selected').text();
 alert($('#result li:selected').text());
 
 
 
 
-});
+
 });
