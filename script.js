@@ -29,9 +29,8 @@ $(document).ready(function() {
 
 
 });
-$('#result').on('click', function(e) {
-  var idClicked = e.target.manufacture;
-  alert(idClicked);
+$('#cool9 li').on('click', function(e) {
+  alert($('#result').text());
 
 
 
