@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 });
 $('li').on('click', function(e) {
-  var idClicked = e.target..manufacture;
+  var idClicked = e.target.manufacture;
   alert(idClicked);
 
 
