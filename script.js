@@ -1,6 +1,6 @@
 <!-- Jquery -->
 $(document).ready(function() {
-  $('#result ul').on('click', function() {
+  $('#result').on('click', function() {
     alert($(this).html());
 
 
