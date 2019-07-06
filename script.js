@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 });
 $('#result').on('click', function() {
-  alert($(this).html());
+  alert($(this).text());
 
 
 
