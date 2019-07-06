@@ -58,24 +58,24 @@ $(function() {
     // var model = "Datascope1";
 
 
-    $.getJSON(url, function(data) {
+    $.getJSON(url, {
 
       //  this sectino is to get the title info into a variable
       // var bob = data.Datascope1.map
       // make the model loading page to a float variable
-      // var test = data.Datascope1;
+      var test = "Datascope1";
       // alert(test);
       // var x = $('.Datascope1');     // var model = data + "." + x;
       // var model = data + x;
 
       // var model = data;
       // var model1 = model + "." + Datascope1;
-      var sportsArray = root.getJSONArray("Datascope1");
+      // var sportsArray = root.getJSONArray("Datascope1");
 
 
 
 
-      data.sportsArray.map(function(item){
+       $.map(test,.map(function(item){
 
         //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
         // return JSON.stringify(item.manufacture + " " + item.Model + " ");
