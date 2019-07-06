@@ -30,10 +30,10 @@ $(document).ready(function() {
 
 });
 $('#result li').on('click', function() {
-  alert($(this).text());
-  x = $(this).text();
-
-  titleTest = titleString.replace(/\"/g, "");
+  alert($(this).html());
+  // x = $(this).text();
+  //
+  // titleTest = titleString.replace(/\"/g, "");
 
 
 
