@@ -70,17 +70,19 @@ $(function() {
 
       // var model = data;
       // var model1 = model + "." + Datascope1;
-      var json = '{}';
+      // var json = '{}';
+      //
+      // var obj = JSON.parse(data.json);
+      //
+      // var last = obj.marquette
+      var jsonObj = JSON.parse(data);
+      var test = "Datascope1";
 
-      var obj = JSON.parse(data.json);
-
-      var last = obj.marquette
 
 
 
 
-
-      last.map(function(item){
+      jsonObj.test.map(function(item){
 
         //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
         // return JSON.stringify(item.manufacture + " " + item.Model + " ");
