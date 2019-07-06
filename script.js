@@ -1,5 +1,10 @@
 <!-- Jquery -->
 $(document).ready(function() {
+  $('#result li').on('click', function() {
+    alert($(this).html());
+
+
+  });
     $('#search').keyup(function(event) {
         // $.ajaxSetup({ cache: false });
         $('#result').html('');
@@ -26,10 +31,6 @@ $(document).ready(function() {
         });
     });
 
-    $('#result li').on('click', function() {
-      alert($(this).html());
 
-
-    });
 });
 });
