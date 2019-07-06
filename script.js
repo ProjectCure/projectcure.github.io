@@ -25,5 +25,11 @@ $(document).ready(function() {
 
         });
     });
+
+    $('#result li').on('click', function() {
+      alert($(this).html());
+
+
+    });
 });
 });
