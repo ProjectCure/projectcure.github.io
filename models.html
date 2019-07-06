@@ -55,10 +55,10 @@ $(function() {
 
     // Get the JSON file
 
-    var model = "Datascope1";
 
 
-    $.getJSON(url, model, function(data) {
+
+    $.getJSON(url, function(data) {
 
       //  this sectino is to get the title info into a variable
       // var bob = data.Datascope1.map
@@ -76,13 +76,14 @@ $(function() {
       //
       // var last = obj.marquette
       // var jsonObj = JSON.parse(data);
+      var array = [Datascope1];
 
 
 
 
 
 
-      data.model.map(function(item){
+      data.array.map(function(item){
 
         //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
         // return JSON.stringify(item.manufacture + " " + item.Model + " ");
