@@ -72,3 +72,13 @@
 
   ]
 }
+
+var marquette =
+  {
+    "manufacture":"marquette",
+    "ProductCode": "3110",
+    "Model":"EAGLE 4000",
+    "manuelUrl":"http://www.frankshospitalworkshop.com/equipment/documents/ecg/service_manuals/Marquette_Eagle4000_-_Service_manual.pdf",
+    "Cuff":"Double",
+    "IMGUrl":"https://files1.kyozou.com/Pictures/_25/24981/24980289.jpg"
+    }
