@@ -30,7 +30,11 @@ $(document).ready(function() {
 
 });
 $('#result').on('click', function() {
-  alert($(this).text());
+  alert($(this.text-muted).text());
+  x = $(this).text();
+
+  titleTest = titleString.replace(/\"/g, "");
+
 
 
 
