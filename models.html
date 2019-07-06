@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!-- Load JQuery -->
+
+
+<head>
+  <!-- Required meta tags -->
+
+   <!-- Bootstrap CSS -->
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+   <!-- fontawesome(ions) -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+   <!-- fontawesome(ions) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+
+  <link rel="stylesheet" href="https://projectcure.github.io/product.css">
+</head>
+
+
+
+<script>
+$(function() {
+
+  // User clicks the "getData" button
+  $(document).ready(function() {
+
+    // Put artistList element and JSON file location into a variable
+    // var infoList= $("#infoList");
+    var url = "https://projectcure.github.io/Devices/model.json";
+
+    // Get the JSON file
+    $.getJSON(url, function(data) {
+
+      //  this sectino is to get the title info into a variable
+      // var bob = data.Datascope1.map
+      // make the model loading page to a float variable
+      var model = $("Datascope1").val();
+      data.model.map(function(item) {
+
+        //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
+        // return JSON.stringify(item.manufacture + " " + item.Model + " ");
+        $('#title').html(item.manufacture+ " " + item.Model);
+        $('#manufacture').html(item.manufacture);
+        $('#Model').append(item.Model);
+        $('#ProductCode').append(item.ProductCode);
+        $('#Cuff').append(item.Cuff);
+        $('#IMGUrl').append('<img class="img" src="' + item.IMGUrl + '" alt="avatar" />');
+        $('#manuelUrl').append('<a href="' + item.manuelUrl + '" ><i class="fas fa-book fa-5x"></i></a>');
+
+      });
+
+
+
+
+
+    });
+  });
+});
+</script>
+<body>
+
+
+<!-- <i class="fas fa-camera fa-5x lnr text-primary services-icon"></i> -->
+<div class="container-fluid home-main">
+		<h2  id="title">
+      <h1 Class="blinker">.</h1>
+
+    </h2>
+    <!-- <span class="blinker">.</span> -->
+
+		<!-- <button type="button" class="btn btn-default">View Profile</button> -->
+	</div>
+  <div class="banner-section" id="img-container">
+      </div>
+  <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xl-12 ">
+                    <nav>
+                      <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Basic Information</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Connections</a>
+                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">SimCube SC-5 Testing</a>
+                        <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Machine Testing</a>
+                      </div>
+                    </nav>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="container-fluid home-content1">
+                      		<div class="row">
+                      			<div class="col-md-6 content1-left">
+
+
+
+                      				<h3>What are some basic details about this monitor<span class="blinker">?</span></h3>
+
+
+                              <div class="container">
+  <!-- <h2>List Group With Badges</h2> -->
+  <ul class="list-group">
+
+
+
+    <li class="list-group-item " > <span class="badge">Manufacture</span> <h2  id="manufacture"> </h2> </li>
+    <li class="list-group-item " > <span class="badge">Model</span> <h2  id="Model"> </h2> </li>
+    <li class="list-group-item" > <span class="badge">ProductCode</span> <h2  id="ProductCode"> </h2> </li>
+    <li class="list-group-item" > <span class="badge">Cuff</span> <h2  id="Cuff"> </h2> </li>
+    <li class="list-group-item"><span class="badge">Manuel</span> <p id="manuelUrl"></p></li>
+  </ul>
+</div>
+                      				<!-- <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p> -->
+                      				<!-- <div class="content1-left"></div> -->
+                      			</div>
+                      			<div class="col-md-6 content1-right">
+                              <!-- <img class="img" id="demo"alt=""> -->
+                              <!-- <div id="IMGUrl"></div> -->
+                              <!-- <div class="banner-section" id="img-container"> -->
+                              <div id="IMGUrl"></div>
+
+      <!-- </div> -->
+
+                              <!-- <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p> -->
+                      			</div>
+                      		</div>
+                      	</div>
+                      	<!-- <div class="container-fluid home-content2">
+                      		<p><span>Test</span> and <span>announcements</span> for all things <span>Bootstrap</span>, including new <span>releases</span> and <span>Bootstrap Themes</span>.</p>
+                      	</div> -->
+                      </div>
+
+                      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                      </div>
+                      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="how-section1">
+                                            <div class="row">
+                                                <div class="col-md-6 how-img">
+                                                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yuTyTB3vH5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                                    <iframe width="560" height="315" src="https://www.pronktech.com/wp-content/uploads/2013/06/Adapt-M-Hi-Res.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4>What type of cable do you use for NIBP<span class="blinker">?</span></h4>
+                                                                <h4 class="subheading">Project C.U.R.E. - Machine Testing.</h4>
+                                                <p class="text-muted">The folowing video is to help a Biomedical Engineer uderstand the basics of cleaning a machine.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h4>How do you clean a Machine<span class="blinker">?</span></h4>
+                                                                <h4 class="subheading">Project C.U.R.E. - Cleaning Biomedical Machines.</h4>
+                                                                <p class="text-muted">The folowing video is to help a Biomedical Engineer uderstand how to clean a machine.</p>
+                                                </div>
+                                                <div class="col-md-6 how-img">
+                                                    <!-- <img src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png" class="rounded-circle img-fluid" alt=""/> -->
+
+                                                    <iframe width="560" height="315" src="https://www.pronktech.com/wp-content/uploads/2013/06/Adapt-M-Hi-Res.jpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                      </div>
+                      </div>
+                      <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                        <div class="how-section1">
+                                            <div class="row">
+                                                <div class="col-md-6 how-img">
+                                                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yuTyTB3vH5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yuTyTB3vH5M?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4> How do you test a Machine<span class="blinker">?</span></h4>
+                                                                <h4 class="subheading">Project C.U.R.E. - Machine Testing.</h4>
+                                                <p class="text-muted">The folowing video is to help a Biomedical Engineer uderstand the basics of cleaning a machine.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h4>How do you clean a Machine<span class="blinker">?</span></h4>
+                                                                <h4 class="subheading">Project C.U.R.E. - Cleaning Biomedical Machines.</h4>
+                                                                <p class="text-muted">The folowing video is to help a Biomedical Engineer uderstand how to clean a machine.</p>
+                                                </div>
+                                                <div class="col-md-6 how-img">
+                                                    <!-- <img src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png" class="rounded-circle img-fluid" alt=""/> -->
+
+                                                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xk0zsK8ONjg?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="row">
+                                                <div class="col-md-6 how-img">
+                                                     <img src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png" class="rounded-circle img-fluid" alt=""/>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4>Work efficiently, effectively.</h4>
+                                                                <h4 class="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
+                                                                <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
+                                                                    Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
+                                                                    Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h4>Get paid on time</h4>
+                                                                <h4 class="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h4>
+                                                                <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
+                                                                    Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
+                                                                    Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
+                                                </div>
+                                                <div class="col-md-6 how-img">
+                                                    <img src="https://image.ibb.co/gQ9iE9/Work_Section2_freelance_img4.png" class="rounded-circle img-fluid" alt=""/>
+                                                </div>
+                                            </div> -->
+                                        </div>
+
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- <div id="getData">Display Ais</div>
+<div id="infoList"></div> -->
+
+</body>
+</html>
