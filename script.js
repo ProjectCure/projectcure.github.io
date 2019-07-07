@@ -60,7 +60,7 @@ $(document).ready(function() {
 // alert($('#result').manufacture);
 document.getElementById("result").addEventListener("click", function(e){
 
-  if(e.target && e.target.nodeName == "BUTTON "){
+  if(e.target && e.target.nodeName == "BUTTON"){
     alert(e.target.id + "was clicked");
 
   }
