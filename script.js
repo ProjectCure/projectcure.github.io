@@ -29,13 +29,13 @@ $(document).ready(function() {
 
 
 });
-// $('#result').on('click', function() {
-//   alert($(this).text());
-//
-//
-//
-//
-// });
+$('#result').on('click', function() {
+  alert($(this).text());
+
+
+
+
+});
 // $('#result li:selected').text();
 // var bob = $('#result').manufacture;
 // alert($('#result').manufacture);
