@@ -44,7 +44,7 @@ function button(event){
 //   }
 
 
-}
+//}
 // $('#result').on('click', function() {
 //   alert($(this).text());
 //
