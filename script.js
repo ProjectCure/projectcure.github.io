@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 
 });
-$('#result li').on('click', function() {
+$('#result').on('click', function() {
   alert($(this).text());
 
 
