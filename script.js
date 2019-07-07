@@ -19,7 +19,7 @@ $(document).ready(function() {
                   // $('#result').append('<li class="list-group-item link-class"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
                   // $('#result').append('<li class="list-group-item link-class"><button id="'+value.Model+'" class="btn btn-secondary btn-lg" aria-pressed="true">'+value.manufacture+'</button></li>');
                   // $('#result').append('<li class="list-group-item link-class" id="'+value.Model+'"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
-                  $('#result').append('<li class="list-group-item link-class"><button id="'+value.Model+'" class="btn btn-secondary btn-lg" aria-pressed="true">'+value.manufacture+' | '+value.Model+'</button></li>');
+                  $('#result').append('<li class="list-group-item link-class"><button id="'+value.Model+'" class="btn btn-secondary btn-lg" >'+value.manufacture+' | '+value.Model+'</button></li>');
 
 
 
@@ -60,7 +60,7 @@ $(document).ready(function() {
 // alert($('#result').manufacture);
 document.getElementById("result").addEventListener("click", function(e){
 
-  if(e.target && e.target.nodeName == "BUTTON"){
+  if(e.target && e.target.nodeName == "BUTTON "){
     alert(e.target.id + "was clicked");
 
   }
