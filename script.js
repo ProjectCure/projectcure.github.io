@@ -32,15 +32,16 @@ $(document).ready(function() {
 
 
 });
-window.onload = myMain;
-function myMain(){
-  document.getElementById('#result').onclick == button;
+
+function button(event){
+  var element = event.target;
+  alert(element.id);
 
 }
-function button(e){
-  if (e.target.tagName == 'BUTTON'){
-    alert(e.target.id);
-  }
+// function button(e){
+//   if (e.target.tagName == 'BUTTON'){
+//     alert(e.target.id);
+//   }
 
 
 }
