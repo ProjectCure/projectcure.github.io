@@ -58,7 +58,7 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(e){
 
   if(e.target && e.target.nodeName == "LI"){
-    console.log(e.target.id + "was clicked");
+    alert(e.target.id + "was clicked");
 
   }
 });
