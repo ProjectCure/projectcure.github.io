@@ -32,13 +32,25 @@ $(document).ready(function() {
 
 
 });
-$('#result').on('click', function() {
-  alert($(this).text());
+window.onload = myMain;
+function myMain(){
+  document.getElementById('#result').onclick == button;
+
+}
+function button(e){
+  if (e.target.tagName == 'BUTTON'){
+    alert(e.target.id);
+  }
 
 
-
-
-});
+}
+// $('#result').on('click', function() {
+//   alert($(this).text());
+//
+//
+//
+//
+// });
 // $('#result li:selected').text();
 // var bob = $('#result').manufacture;
 // alert($('#result').manufacture);
