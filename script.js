@@ -21,6 +21,10 @@ $(document).ready(function() {
 
 
 
+                }
+
+
+
 
 
         });
@@ -28,7 +32,7 @@ $(document).ready(function() {
 
 
 });
-$('#result').on('click', function() {
+$('#result li').on('click', function() {
   alert($(this).text());
 
 
