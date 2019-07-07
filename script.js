@@ -61,7 +61,10 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(e){
 
   if(e.target && e.target.nodeName == "BUTTON"){
-    alert(e.target.id + "was clicked");
+    var itemClicked = e.target.id;
+    // alert(e.target.id + "was clicked");
+    alert(itemClicked);
+
 
   }
 });
