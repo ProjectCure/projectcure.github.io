@@ -17,7 +17,7 @@ $(document).ready(function() {
 
                   //need to reduce this to just get the name
                   // $('#result').append('<li class="list-group-item link-class"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
-                  $('#result').append('<li class="list-group-item link-class"><button id="'+value.Model+'" href= class="btn btn-secondary btn-lg" aria-pressed="true">'+value.manufacture+'</button></li>');
+                  $('#result').append('<li class="list-group-item link-class" id="'+value.Model+'"><button href= class="btn btn-secondary btn-lg" aria-pressed="true">'+value.manufacture+'</button></li>');
 
 
 
@@ -33,11 +33,11 @@ $(document).ready(function() {
 
 });
 
-function button(event){
-  var element = event.target;
-  alert(element.id);
-
-}
+// function button(event){
+//   var element = event.target;
+//   alert(element.id);
+//
+// }
 // function button(e){
 //   if (e.target.tagName == 'BUTTON'){
 //     alert(e.target.id);
@@ -55,6 +55,13 @@ function button(event){
 // $('#result li:selected').text();
 // var bob = $('#result').manufacture;
 // alert($('#result').manufacture);
+document.getElementById("result").addEventListener("click", function(e){
+
+  if(e.target && e.target.nodeName == "LI"){
+    console.log(e.target.id + "was clicked");
+
+  }
+});
 
 
 
