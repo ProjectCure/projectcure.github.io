@@ -62,6 +62,7 @@ document.getElementById("result").addEventListener("click", function(e){
 
   if(e.target && e.target.nodeName == "BUTTON"){
     var itemClicked = e.target.id;
+    export { itemClicked };
     // alert(e.target.id + "was clicked");
     alert(itemClicked);
 
