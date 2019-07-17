@@ -61,11 +61,11 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(e){
 
   if(e.target && e.target.nodeName == "BUTTON"){
-    var itemClicked = e.target.id;
+    var e.target.id;
 
 
     // alert(e.target.id + "was clicked");
-    alert(itemClicked);
+    alert(e.target.id);
 
 
   }
@@ -113,7 +113,7 @@ document.getElementById("result").addEventListener("click", function(e){
     // var last = obj.marquette
     // var jsonObj = JSON.parse(data);
     // var array = [Datascope1];
-    alert(itemClicked);
+    alert(e.target.id);
 
 
 
