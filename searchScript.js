@@ -58,7 +58,7 @@ $(document).ready(function() {
 // $('#result li:selected').text();
 // var bob = $('#result').manufacture;
 // alert($('#result').manufacture);
-document.getElementById("result").addEventListener("click", function(e){
+document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(e.target && e.target.nodeName == "BUTTON"){
     var itemClicked = e.target.id;
@@ -69,6 +69,8 @@ document.getElementById("result").addEventListener("click", function(e){
 
   }
 });
+
+export {clickFunction, itemClicked};
 
 
 
