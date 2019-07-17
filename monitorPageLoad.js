@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
-  import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
-  console.log( itemClicked );
+  // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
+  // console.log( itemClicked );
   // Put artistList element and JSON file location into a variable
   // var infoList= $("#infoList");
   var url = "https://projectcure.github.io/Devices/model.json";
