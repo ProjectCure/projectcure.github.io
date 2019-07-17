@@ -6,9 +6,9 @@ $(document).ready(function() {
   // var infoList= $("#infoList");
   var url = "https://projectcure.github.io/Devices/model.json";
 
-  //gets the varible from searchScript.js
-  var myModule = require('https://projectcure.github.io/searchScript.js');
-  var name = myModule.name;
+  // //gets the varible from searchScript.js
+  // var myModule = require('https://projectcure.github.io/searchScript.js');
+  // var name = myModule.name;
 
 
 
