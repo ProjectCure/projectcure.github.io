@@ -70,7 +70,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
   }
 });
 
-export {clickFunction, itemClicked};
+// export {clickFunction, itemClicked};
 
 
 
