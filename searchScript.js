@@ -113,7 +113,7 @@ document.getElementById("result").addEventListener("click", function(e){
     // var last = obj.marquette
     // var jsonObj = JSON.parse(data);
     // var array = [Datascope1];
-    alert(data[itemClicked]);
+    alert(itemClicked);
 
 
 
