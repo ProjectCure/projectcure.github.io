@@ -76,10 +76,7 @@ document.getElementById("result").addEventListener("click", function(e){
 
 
 
-});
 
-
-$(document).ready(function() {
 
 
   // Put artistList element and JSON file location into a variable
