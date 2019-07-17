@@ -80,7 +80,7 @@ document.getElementById("result").addEventListener("click", function(e){
 
 
 $(document).ready(function() {
-  import { itemClicked } from "https://projectcure.github.io/searchScript.js"
+
 
   // Put artistList element and JSON file location into a variable
   // var infoList= $("#infoList");
