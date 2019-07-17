@@ -1,4 +1,4 @@
-<!-- Jquery -->
+// <!-- Jquery -->
 $(document).ready(function() {
 
     $('#search').keyup(function(event) {
