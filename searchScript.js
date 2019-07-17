@@ -68,7 +68,7 @@ document.getElementById("result").addEventListener("click", function(e){
 
 
   }
-  exports.name = itemClicked;
+  export.name = itemClicked;
 });
 
 
