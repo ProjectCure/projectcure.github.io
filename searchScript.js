@@ -61,7 +61,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
     const test1 = clickFunction.target.id;
-    export { test1 };
+    export {test1};
 
     //exports = { itemClicked };
     //alert(test);
