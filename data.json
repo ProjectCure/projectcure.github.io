@@ -3,51 +3,37 @@
   {
     "manufacture":"marquette",
     "Product Code": "3110",
-    "Model":"EAGLE 4000",
-    "manuelurl":"https://projectcure.github.io/models.html",
-
-    "Cuff":"Double"
-
+    "Model":"EAGLE 4000"
   },
 
   {
     "manufacture":"Datascope",
     "Product Code": "3110",
-    "Model":"Passport",
-    "manuelurl":"https://projectcure.github.io/models.html",
-    "Cuff":"Single"
+    "Model":"Passport"
   },
 
   {
     "manufacture":"Datascope",
     "Product Code": "3110",
-    "Model":"Passport2",
-    "manuelurl":"https://projectcure.github.io/models.html",
-    "Cuff":"Single"
+    "Model":"Passport2"
   },
 
   {
     "manufacture":"Datascope",
     "Product Code": "3110",
-    "Model":"PassportXG",
-    "manuelurl":"https://projectcure.github.io/models.html",
-    "Cuff":"Single"
+    "Model":"PassportXG"
   },
 
   {
     "manufacture":"Critikon",
     "Product Code": "3106",
-    "Model":"Dinamap Vital Signs Monitor 1846 SX",
-    "manuelurl":"https://projectcure.github.io/models.html",
-    "Cuff":"Double"
+    "Model":"Dinamap Vital Signs Monitor 1846 SX"
   },
 
   {
     "manufacture":"WelchAllyn",
     "Product Code": "3106",
-    "Model":"PROPAQcs",
-    "manuelurl":"https://projectcure.github.io/models.html",
-    "Cuff":"Double"
+    "Model":"PROPAQcs"
   }
 
 
