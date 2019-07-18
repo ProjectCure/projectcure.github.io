@@ -68,7 +68,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   }
-  alert(test);
+
 
 
 
@@ -101,6 +101,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   $.getJSON(url,  function(data) {
+      alert(test);
 
     //  this sectino is to get the title info into a variable
     // var bob = data.Datascope1.map
