@@ -4,7 +4,7 @@
     "manufacture":"marquette",
     "Product Code": "3110",
     "Model":"EAGLE 4000",
-    "manuelurl":"",
+    "manuelurl":"https://projectcure.github.io/models.html",
 
     "Cuff":"Double"
 
@@ -14,7 +14,7 @@
     "manufacture":"Datascope",
     "Product Code": "3110",
     "Model":"Passport",
-    "manuelurl":"https://engineerDavid.github.io/Devices/Datascope.html",
+    "manuelurl":"https://projectcure.github.io/models.html",
     "Cuff":"Single"
   },
 
@@ -22,7 +22,7 @@
     "manufacture":"Datascope",
     "Product Code": "3110",
     "Model":"Passport2",
-    "manuelurl":"https://engineerDavid.github.io/Devices/DatascopePassport2.html",
+    "manuelurl":"https://projectcure.github.io/models.html",
     "Cuff":"Single"
   },
 
@@ -30,7 +30,7 @@
     "manufacture":"Datascope",
     "Product Code": "3110",
     "Model":"PassportXG",
-    "manuelurl":"https://engineerDavid.github.io/Devices/DatascopePassportXG.html",
+    "manuelurl":"https://projectcure.github.io/models.html",
     "Cuff":"Single"
   },
 
@@ -38,7 +38,7 @@
     "manufacture":"Critikon",
     "Product Code": "3106",
     "Model":"Dinamap Vital Signs Monitor 1846 SX",
-    "manuelurl":"https://projectcure.github.io/Devices/Critikon.html",
+    "manuelurl":"https://projectcure.github.io/models.html",
     "Cuff":"Double"
   },
 
@@ -46,7 +46,7 @@
     "manufacture":"WelchAllyn",
     "Product Code": "3106",
     "Model":"PROPAQcs",
-    "manuelurl":"https://engineerDavid.github.io/Devices/WelchAllyn.html",
+    "manuelurl":"https://projectcure.github.io/models.html",
     "Cuff":"Double"
   }
 
