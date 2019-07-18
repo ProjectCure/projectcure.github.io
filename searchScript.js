@@ -74,7 +74,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 function bob( ) {
 
   alert(test);
-}
+};
 
 
 
