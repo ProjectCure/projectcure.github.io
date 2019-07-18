@@ -61,7 +61,7 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "BUTTON"){
-    window.test itemClicked = clickFunction.target.id;
+    window.test = clickFunction.target.id;
 
     //exports = { itemClicked };
     //alert(itemClicked);
