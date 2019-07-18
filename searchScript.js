@@ -60,8 +60,7 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    const test1 = clickFunction.target.id;
-    export {test1};
+    window.test = clickFunction.target.id;
 
     //exports = { itemClicked };
     //alert(test);
@@ -78,7 +77,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 
-
+  
 
 
 
