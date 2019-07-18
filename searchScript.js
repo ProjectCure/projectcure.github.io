@@ -61,16 +61,20 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "BUTTON"){
-    itemClicked = clickFunction.target.id;
+    window.test itemClicked = clickFunction.target.id;
 
     //exports = { itemClicked };
-    alert(itemClicked);
+    //alert(itemClicked);
 
 
 
   }
 });
 //alert(clickFunction.target.id);
+function bob( ) {
+
+  alert(test);
+}
 
 
 
