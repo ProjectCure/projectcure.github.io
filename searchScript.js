@@ -63,7 +63,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
   if(clickFunction.target && clickFunction.target.nodeName == "BUTTON"){
     var itemClicked = clickFunction.target.id;
     // module.exports = { variableName: itemClicked };
-    export { itemClicked };
+    module.exports = { itemClicked };
     // alert(e.target.id + "was clicked");
     alert(itemClicked);
 
