@@ -18,7 +18,7 @@ $(document).ready(function() {
                   // $('#result').append('<li class="list-group-item link-class"><a href=" '+value.manuelurl+' " class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
                   // $('#result').append('<li class="list-group-item link-class"><button id="'+value.Model+'" class="btn btn-secondary btn-lg" aria-pressed="true">'+value.manufacture+'</button></li>');
                   // $('#result').append('<li class="list-group-item link-class" id="'+value.Model+'"><a  class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Link</a>'+value.manufacture+' | <span class="text-muted">'+value.Model+'</span></li>');
-                  $('#result').append('<li class="list-group-item link-class"><button type="button" href="'+value.manuelurl+'" id="'+value.Model+'" class="btn btn-secondary btn-lg btn-block" aria-pressed="true">'+value.manufacture+' | '+value.Model+'</button></li>');
+                  $('#result').append('<li class="list-group-item link-class"><button href=" '+value.manuelurl+' " type="button"  id="'+value.Model+'" class="btn btn-secondary btn-lg btn-block" aria-pressed="true">'+value.manufacture+' | '+value.Model+'</button></li>');
 
 
 
