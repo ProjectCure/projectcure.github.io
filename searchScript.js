@@ -64,17 +64,17 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
     window.test = clickFunction.target.id;
 
     //exports = { itemClicked };
-    alert(test);
+    //alert(test);
 
 
 
   }
 });
 //alert(clickFunction.target.id);
-function bob( ) {
+
 
   alert(test);
-};
+
 
 
 
