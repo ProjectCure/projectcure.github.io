@@ -44,7 +44,7 @@ $(document).ready(function() {
 
 
 
-    data[name].map(function(item){
+    data[x].map(function(item){
 
       //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
       // return JSON.stringify(item.manufacture + " " + item.Model + " ");
