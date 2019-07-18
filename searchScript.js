@@ -77,7 +77,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 
-  $(document).ready(function() {
+  
     // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
     // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
     // console.log( itemClicked );
@@ -142,7 +142,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
     });
-  });
+
 
 
 
