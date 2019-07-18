@@ -37,7 +37,7 @@ $(document).ready(function() {
     // var last = obj.marquette
     // var jsonObj = JSON.parse(data);
     // var array = [Datascope1];
-    alert(data[x]);
+    alert(test);
 
 
 
