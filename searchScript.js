@@ -64,13 +64,13 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
     //var itemClicked = clickFunction.target.id;
 
     //exports = { itemClicked };
-    alert(clickFunction.target.id);
+    //alert(clickFunction.target.id);
 
 
 
   }
 });
-//alert(itemClicked);
+alert(clickFunction.target.id);
 
 
 
