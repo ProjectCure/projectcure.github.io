@@ -101,14 +101,15 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   $.getJSON(url,  function(data) {
-      alert(test);
+      //alert(test);
 
     //  this sectino is to get the title info into a variable
     // var bob = data.Datascope1.map
     // make the model loading page to a float variable
     // var test = data.Datascope1;
     // alert(test);
-    var x = "Datascope1";     // var model = data + "." + x;
+    var x = test;     // var model = data + "." + x;
+    alert(x);
     // var model = data + x;
 
     // var model = data;
