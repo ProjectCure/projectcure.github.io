@@ -60,8 +60,8 @@ $(document).ready(function() {
 // alert($('#result').manufacture);
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
-  if(e.target && e.target.nodeName == "BUTTON"){
-    var itemClicked = e.target.id;
+  if(clickFunction.target && clickFunction.target.nodeName == "BUTTON"){
+    var itemClicked = clickFunction.target.id;
     module.exports = { variableName: itemClicked };
     //export { itemClicked };
     // alert(e.target.id + "was clicked");
