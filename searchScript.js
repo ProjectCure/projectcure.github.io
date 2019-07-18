@@ -65,11 +65,12 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
     //exports = { itemClicked };
     // alert(e.target.id + "was clicked");
-    alert(itemClicked);
+
 
 
   }
 });
+alert(itemClicked);
 
 
 
@@ -78,4 +79,3 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 });
-module.exports = { variableName: itemClicked };
