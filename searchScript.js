@@ -69,9 +69,9 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   }
-  alert(test);
+  //alert(test);
 });
-//alert(clickFunction.target.id);
+alert(test);
 
 
 
