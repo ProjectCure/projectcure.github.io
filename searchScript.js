@@ -128,7 +128,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 
-    data[x].map(function(item){
+    data[Datascope1].map(function(item){
 
       //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
       // return JSON.stringify(item.manufacture + " " + item.Model + " ");
