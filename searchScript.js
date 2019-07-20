@@ -96,4 +96,4 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 });
-export { test1 };
+let test1; export { test1 };
