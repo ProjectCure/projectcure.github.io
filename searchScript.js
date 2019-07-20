@@ -119,6 +119,6 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 });
 // file test.js
-let m; export default m = 12;
+// let m; export default m = 12;
 // export features declared earlier
 // export { clickFunction, m };
