@@ -77,9 +77,11 @@ $(document).ready(function() {
 // alert(globalTest1);
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
+
+
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    var test1 = clickFunction.target.id;
-    module.exports.variableName = "variableValue";
+    var m = clickFunction.target.id;
+    // module.exports.variableName = "variableValue";
 
 
 
@@ -115,3 +117,5 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 });
+// export features declared earlier
+export { clickFunction, m };
