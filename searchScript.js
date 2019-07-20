@@ -1,6 +1,8 @@
 // <!-- Jquery -->
 // export feature declared earlier as default
-export { clickFunction as default };
+// export { clickFunction as default };
+export let test1;
+
 $(document).ready(function() {
 
     $('#search').keyup(function(event) {
@@ -62,7 +64,7 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    window.test = clickFunction.target.id;
+    var test1 = clickFunction.target.id;
 
     //exports = { itemClicked };
     //alert(test);
@@ -71,7 +73,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   };
 });
-alert(test);
+alert(test1);
 
 
 
