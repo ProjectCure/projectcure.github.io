@@ -1,21 +1,21 @@
 $(document).ready(function() {
   //alert(test1);
-  document.getElementById("result").addEventListener("click", function(clickFunction){
-
-    if(clickFunction.target && clickFunction.target.nodeName == "A"){
-      window.test1 = clickFunction.target.id;
-      alert(test1);
-
-
-
-      //exports = { itemClicked };
-
-
-
-
-    };
-  });
-  //alert(test1);
+  // document.getElementById("result").addEventListener("click", function(clickFunction){
+  //
+  //   if(clickFunction.target && clickFunction.target.nodeName == "A"){
+  //     window.test1 = clickFunction.target.id;
+  //     //alert(test1);
+  //
+  //
+  //
+  //     //exports = { itemClicked };
+  //
+  //
+  //
+  //
+  //   };
+  // });
+  // alert(test1);
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
   // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
   // console.log( itemClicked );
