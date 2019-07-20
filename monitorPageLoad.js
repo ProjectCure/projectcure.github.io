@@ -1,4 +1,4 @@
-import test1 from 'https://projectcure.github.io/searchScript.js'
+import test1 from 'https://projectcure.github.io/searchScript.js';
 $(document).ready(function() {
   alert(test1);
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
