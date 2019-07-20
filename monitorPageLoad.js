@@ -3,6 +3,8 @@
 // // some other file
 // import test1 from 'https://projectcure.github.io/searchScript.js'; // note that we have the freedom to use import m instead of import k, because k was default export
 // alert(test1);        // will log 12
+var name=localStorage.getItem("firstname");
+alert(name);
 // $(document).ready(function() {
 //   //alert(test1);
 //
