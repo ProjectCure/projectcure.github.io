@@ -40,7 +40,7 @@ $(document).ready(function() {
     // var last = obj.marquette
     // var jsonObj = JSON.parse(data);
     // var array = [Datascope1];
-    alert(test1);
+    //alert(test1);
 
 
 
