@@ -1,7 +1,7 @@
 // <!-- Jquery -->
 // export feature declared earlier as default
 // export { clickFunction as default };
-export let test1;
+let test1; export default test1 = null;
 
 $(document).ready(function() {
 
@@ -67,7 +67,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
     var test1 = clickFunction.target.id;
 
     //exports = { itemClicked };
-    //alert(test);
+    alert(test1);
 
 
 
