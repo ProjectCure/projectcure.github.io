@@ -79,7 +79,8 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
     var test1 = clickFunction.target.id;
-    
+    module.exports.variableName = "variableValue";
+
 
 
 

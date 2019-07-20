@@ -1,4 +1,5 @@
-alert(test1);
+var sourceFile = require('https://projectcure.github.io/searchScript.js');
+alert(sourceFile.variableName);
 $(document).ready(function() {
   //alert(test1);
 
