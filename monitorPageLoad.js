@@ -7,7 +7,7 @@ $(document).ready(function() {
   // Put artistList element and JSON file location into a variable
   //var infoList= $("#infoList");
   var url = "https://projectcure.github.io/Devices/model.json";
-  import {test1} from 'https://projectcure.github.io/searchScript.js'
+  //import {test1} from 'https://projectcure.github.io/searchScript.js'
 
   // //gets the varible from searchScript.js
   // var myModule = require('https://projectcure.github.io/searchScript.js');
