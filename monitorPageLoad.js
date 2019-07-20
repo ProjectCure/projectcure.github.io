@@ -1,4 +1,6 @@
+import test1 from 'https://projectcure.github.io/searchScript.js'
 $(document).ready(function() {
+  alert(test1);
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
   // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
   // console.log( itemClicked );

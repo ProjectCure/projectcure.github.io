@@ -73,7 +73,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   };
 });
-alert(test1);
+
 
 
 
