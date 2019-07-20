@@ -1,7 +1,11 @@
 // <!-- Jquery -->
 // export feature declared earlier as default
 // export { clickFunction as default };
-let test1; export default test1 = null;
+// let test1; export default test1 = null;
+// export individual features (can export var, let,
+// const, function, class)
+export let test1 = Math.sqrt(2);
+console.error();
 
 $(document).ready(function() {
 
