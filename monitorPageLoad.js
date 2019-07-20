@@ -4,6 +4,7 @@ $(document).ready(function() {
 
     if(clickFunction.target && clickFunction.target.nodeName == "A"){
       window.test1 = clickFunction.target.id;
+      alert(test1);
 
 
 
