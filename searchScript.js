@@ -85,7 +85,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
      window.m = clickFunction.target.id;
-    function(cool);
+
 
     // module.exports.variableName = "variableValue";
 
@@ -104,7 +104,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 // alert(sourceFile.variableName);
 // some other file
     // will log 12
-$(document).ready(function(cool) {
+$(document).ready(function() {
   //alert(test1);
   alert(m);
 
