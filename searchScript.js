@@ -88,13 +88,9 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
      var url = "https://projectcure.github.io/Devices/model.json";
 
      $.getJSON(url, function(data) {
-       function testJS() {
-       var b = document.getElementById('name').value,
-       url = 'https://projectcure.github.io/models.html?name=' + encodeURIComponent(b);
+       localStorage["key"] = m;
 
-       document.location.href = url;
-       }
-       alert(m);
+
 
 
 
