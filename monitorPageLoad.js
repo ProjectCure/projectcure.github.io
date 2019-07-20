@@ -18,7 +18,21 @@ $(document).ready(function() {
 
 
   // Get the JSON file
+  document.getElementById("result").addEventListener("click", function(clickFunction){
 
+    if(clickFunction.target && clickFunction.target.nodeName == "A"){
+      window.test1 = clickFunction.target.id;
+      alert(test1);
+
+
+
+      //exports = { itemClicked };
+
+
+
+
+    };
+  });
 
 
 
