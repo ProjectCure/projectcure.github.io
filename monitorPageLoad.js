@@ -36,9 +36,9 @@ $(document).ready(function() {
     // var test = data.Datascope1;
     // alert(test);
     var name=localStorage.getItem("firstname");
-    alert(name);
+    //alert(name);
     // var x = "Datascope1";     // var model = data + "." + x;
-    var x = name;
+    // var x = name;
     // var model = data + x;
 
     // var model = data;
@@ -57,7 +57,7 @@ $(document).ready(function() {
 
 
 
-    data[x].map(function(item){
+    data[name].map(function(item){
 
       //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
       // return JSON.stringify(item.manufacture + " " + item.Model + " ");
