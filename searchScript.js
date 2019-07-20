@@ -61,20 +61,20 @@ $(document).ready(function() {
 // $('#result li:selected').text();
 // var bob = $('#result').manufacture;
 // alert($('#result').manufacture);
-document.getElementById("result").addEventListener("click", function(clickFunction){
-
-  if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    globalTest1 = clickFunction.target.id;
-
-
-    //exports = { itemClicked };
-
-
-
-
-  };
-});
-alert(globalTest1);
+// document.getElementById("result").addEventListener("click", function(clickFunction){
+//
+//   if(clickFunction.target && clickFunction.target.nodeName == "A"){
+//     globalTest1 = clickFunction.target.id;
+//
+//
+//     //exports = { itemClicked };
+//
+//
+//
+//
+//   };
+// });
+// alert(globalTest1);
 
 
 

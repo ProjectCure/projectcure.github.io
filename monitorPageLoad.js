@@ -1,6 +1,20 @@
-import test1 from 'https://projectcure.github.io/searchScript.js';
+document.getElementById("result").addEventListener("click", function(clickFunction){
+
+  if(clickFunction.target && clickFunction.target.nodeName == "A"){
+    var test1 = clickFunction.target.id;
+     alert(test1);
+
+
+    //exports = { itemClicked };
+
+
+
+
+  };
+});
+
 $(document).ready(function() {
-  alert(test1);
+  //alert(test1);
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
   // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
   // console.log( itemClicked );
