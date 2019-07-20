@@ -86,40 +86,9 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
      var m = clickFunction.target.id;
      var url = "https://projectcure.github.io/Devices/model.json";
+     localStorage.setItem("firstname", m);
 
-     $.getJSON(url, function(data) {
-       localStorage.setItem("firstname", m);
-
-
-
-
-
-       var x = "Datascope1";     // var model = data + "." + x;
-       // var model = data + x;
-
-       // var model = data;
-       // var model1 = model + "." + Datascope1;
-       // var json = '{}';
-       //
-       // var obj = JSON.parse(data.json);
-       //
-       // var last = obj.marquette
-       // var jsonObj = JSON.parse(data);
-       // var array = [Datascope1];
-       //alert(test1);
-       data[x].map(function(item){
-
-         //return item.manufacture + " (" + item.ProductCode + ")" + item.Model + item.manuelurl + item.Cuff;
-         // return JSON.stringify(item.manufacture + " " + item.Model + " ");
-         $('#title').html(item.manufacture+ " " + item.Model);
-         $('#manufacture').html(item.manufacture);
-         $('#Model').append(item.Model);
-         $('#ProductCode').append(item.ProductCode);
-         $('#Cuff').append(item.Cuff);
-         $('#IMGUrl').append('<img class="img" src="' + item.IMGUrl + '" alt="avatar" />');
-         $('#manuelUrl').append('<a href="' + item.manuelUrl + '" ><i class="fas fa-book fa-5x"></i></a>');
-
-       });
+  
 
 
 
