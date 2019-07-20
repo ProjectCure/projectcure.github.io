@@ -80,7 +80,8 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    export let m = clickFunction.target.id;
+    var m = clickFunction.target.id;
+
     // module.exports.variableName = "variableValue";
 
 
@@ -117,5 +118,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 });
+// file test.js
+let m; export default m = 12;
 // export features declared earlier
 // export { clickFunction, m };
