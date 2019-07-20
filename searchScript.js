@@ -80,7 +80,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    var m = clickFunction.target.id;
+    export let m = clickFunction.target.id;
     // module.exports.variableName = "variableValue";
 
 
@@ -118,4 +118,4 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 });
 // export features declared earlier
-export { clickFunction, m };
+// export { clickFunction, m };
