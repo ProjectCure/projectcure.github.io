@@ -1,8 +1,8 @@
 // var sourceFile = require('https://projectcure.github.io/searchScript.js');
 // alert(sourceFile.variableName);
 // some other file
-// import m from 'https://projectcure.github.io/searchScript.js'; // note that we have the freedom to use import m instead of import k, because k was default export
-// alert(m);        // will log 12
+import test1 from 'https://projectcure.github.io/searchScript.js'; // note that we have the freedom to use import m instead of import k, because k was default export
+alert(test1);        // will log 12
 $(document).ready(function() {
   //alert(test1);
 
