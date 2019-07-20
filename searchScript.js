@@ -67,7 +67,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
     var test1 = clickFunction.target.id;
 
     //exports = { itemClicked };
-    alert(test1);
+
 
 
 
@@ -96,4 +96,5 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 });
+alert(test1);
 export let test1;
