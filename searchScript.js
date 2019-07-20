@@ -1,4 +1,6 @@
 // <!-- Jquery -->
+// export feature declared earlier as default
+export { clickFunction as default };
 $(document).ready(function() {
 
     $('#search').keyup(function(event) {
