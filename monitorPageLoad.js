@@ -1,3 +1,4 @@
+alert(test1);
 $(document).ready(function() {
   //alert(test1);
 
@@ -18,7 +19,7 @@ $(document).ready(function() {
 
 
   // Get the JSON file
-  
+
 
 
   $.getJSON(url,  function(data) {

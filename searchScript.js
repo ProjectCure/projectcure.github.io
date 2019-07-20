@@ -78,8 +78,8 @@ $(document).ready(function() {
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    window.test1 = clickFunction.target.id;
-    alert(test1);
+    var test1 = clickFunction.target.id;
+    
 
 
 
