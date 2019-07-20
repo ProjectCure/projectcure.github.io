@@ -37,7 +37,8 @@ $(document).ready(function() {
     // alert(test);
     var name=localStorage.getItem("firstname");
     alert(name);
-    var x = "Datascope1";     // var model = data + "." + x;
+    // var x = "Datascope1";     // var model = data + "." + x;
+    var x = name;
     // var model = data + x;
 
     // var model = data;
