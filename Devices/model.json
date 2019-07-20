@@ -1,5 +1,5 @@
 {
-  "marquette" : [
+  "EAGLE 4000" : [
     {
       "manufacture":"marquette",
       "ProductCode": "3110",
@@ -11,7 +11,7 @@
 
   ],
 
-  "Datascope1" : [
+  "Passport" : [
     {
       "manufacture":"Datascope",
       "ProductCode": "3110",
@@ -23,7 +23,7 @@
 
   ],
 
-  "DatascopePassport2" : [
+  "Passport2" : [
     {
       "manufacture":"Datascope",
       "ProductCode": "3110",
@@ -35,7 +35,7 @@
 
   ],
 
-  "DatascopePassportXG" : [
+  "PassportXG" : [
     {
       "manufacture":"Datascope",
       "ProductCode": "3110",
@@ -48,7 +48,7 @@
   ],
 
 
-  "Critikon" : [
+  "Dinamap Vital Signs Monitor 1846 SX" : [
     {
       "manufacture":"Critikon",
       "ProductCode": "3106",
@@ -60,7 +60,7 @@
 
   ],
 
-  "WelchAllyn" : [
+  "PROPAQcs" : [
     {
       "manufacture":"Critikon",
       "ProductCode": "3106",
