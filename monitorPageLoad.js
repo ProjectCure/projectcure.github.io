@@ -1,18 +1,18 @@
-// document.getElementById("result").addEventListener("click", function(clickFunction){
-//
-//   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-//     window.test1 = clickFunction.target.id;
-//     alert(test1);
-//
-//
-//
-//     //exports = { itemClicked };
-//
-//
-//
-//
-//   };
-// });
+document.getElementById("result").addEventListener("click", function(clickFunction){
+
+  if(clickFunction.target && clickFunction.target.nodeName == "A"){
+    window.test1 = clickFunction.target.id;
+    alert(test1);
+
+
+
+    //exports = { itemClicked };
+
+
+
+
+  };
+});
 
 
 
@@ -41,21 +41,7 @@ $(document).ready(function() {
 
 
   $.getJSON(url,  function(data) {
-    document.getElementById("result").addEventListener("click", function(clickFunction){
 
-      if(clickFunction.target && clickFunction.target.nodeName == "A"){
-        window.test1 = clickFunction.target.id;
-        alert(test1);
-
-
-
-        //exports = { itemClicked };
-
-
-
-
-      };
-    });
 
     //  this sectino is to get the title info into a variable
     // var bob = data.Datascope1.map
