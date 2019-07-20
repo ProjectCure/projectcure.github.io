@@ -84,11 +84,11 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-     window.m = clickFunction.target.id;
+     var m = clickFunction.target.id;
      var url = "https://projectcure.github.io/Devices/model.json";
 
      $.getJSON(url, function(data) {
-       localStorage.setItem("firstname", "Smith");
+       localStorage.setItem("firstname", m);
 
 
 
