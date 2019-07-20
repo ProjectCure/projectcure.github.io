@@ -88,13 +88,13 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
      var url = "https://projectcure.github.io/Devices/model.json";
      localStorage.setItem("firstname", m);
 
-  
 
 
 
 
 
-     });
+
+    
 
 
     // module.exports.variableName = "variableValue";
