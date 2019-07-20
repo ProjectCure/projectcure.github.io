@@ -69,6 +69,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   };
 });
+alert(test);
 
 
 
@@ -77,7 +78,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 
-  
+
 
 
 
