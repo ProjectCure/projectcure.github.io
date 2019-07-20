@@ -284,7 +284,18 @@ $(function() {
 
 
 </body>
-<script  type="text/javascript" src="https://projectcure.github.io/searchScript.js"></script>
+<script >
+window.onload = function () {
+    var url = document.location.href,
+        params = url.split('?')[1].split('&'),
+        data = {}, tmp;
+    for (var i = 0, l = params.length; i < l; i++) {
+         tmp = params[i].split('=');
+         data[tmp[0]] = tmp[1];
+    }
+    document.getElementById('here').innerHTML = data.name;
+}
+</script>
 <!-- <script  type="text/javascript"  src="https://projectcure.github.io/monitorPageLoad.js"></script> -->
 
 
