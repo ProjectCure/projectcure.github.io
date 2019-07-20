@@ -1,7 +1,7 @@
 document.getElementById("result").addEventListener("click", function(clickFunction){
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
-    var test1 = clickFunction.target.id;
+    window.test1 = clickFunction.target.id;
 
 
 
