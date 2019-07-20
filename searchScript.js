@@ -14,7 +14,7 @@ $(document).ready(function() {
         $('#result').html('');
         var searchField = $('#search').val();
         var expression = new RegExp(searchField, "i");
-        $.getJSON('data.json',function(data) {
+        $.getJSON('model.json',function(data) {
             $.each(data, function(key, value) {
               //search bias
                 if (value.manufacture.search(expression) != -1 || value.Model.search(expression) != -1)
@@ -94,7 +94,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 
 
-    
+
 
 
     // module.exports.variableName = "variableValue";
