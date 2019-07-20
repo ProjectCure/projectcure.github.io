@@ -2,7 +2,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
   if(clickFunction.target && clickFunction.target.nodeName == "A"){
     var test1 = clickFunction.target.id;
-     alert(test1);
+
 
 
     //exports = { itemClicked };
@@ -15,6 +15,7 @@ document.getElementById("result").addEventListener("click", function(clickFuncti
 
 $(document).ready(function() {
   //alert(test1);
+  alert(test1);
   // import { itemClicked } from "https://projectcure.github.io/searchScript.js"
   // import {clickFunction, itemClicked} from "https://projectcure.github.io/searchScript.js";
   // console.log( itemClicked );
