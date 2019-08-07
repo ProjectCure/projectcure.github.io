@@ -11,8 +11,9 @@ body,html{
 .test{
 
   text-align: center;
-  
+
   padding-top:10em;
+  padding-bottom:20em;
 
 }
    .searchbar{
