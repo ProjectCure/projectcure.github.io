@@ -8,14 +8,14 @@ body,html{
 
 
 
-.test{
+   .test{
 
   text-align: center;
 
   padding-top:10em;
   padding-bottom:5em;
 
-}
+  }
    .searchbar{
    margin-bottom: auto;
    margin-top: auto;
