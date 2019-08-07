@@ -4,11 +4,17 @@ body,html{
    margin: 0;
    padding: 0;
    background: #DC143C !important;
-   text-align: center;
    }
 
-   * { color:#fff; text-decoration: none;}
 
+
+.test{
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+
+}
    .searchbar{
    margin-bottom: auto;
    margin-top: auto;
