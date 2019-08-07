@@ -6,6 +6,8 @@ body,html{
    background: #DC143C !important;
    }
 
+   * { color:#fff; text-decoration: none;}
+
    .searchbar{
    margin-bottom: auto;
    margin-top: auto;
